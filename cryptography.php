@@ -24,9 +24,9 @@ function Decrypt($word, $secretKey)
 	$_deWord = '';
 	if($word)
 	{
-		$arrayWord = str_split($word,6);
+		$word = str_split($word,6);
 		$hastTable = GenHashTable($secretKey);
-		foreach ($arrayWord as $key => $code) {
+		foreach ($word as $key => $code) {
 
 			$found = false;
 			foreach ($hastTable as $key => $codeTable) {
