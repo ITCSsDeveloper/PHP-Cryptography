@@ -1,10 +1,5 @@
 <?php 
-<<<<<<< HEAD
 include('php-to-encrypt-and-decrypt-passwords.php');
-
-=======
-include('cryptography.php');
->>>>>>> c2e5236ac4734d24ec14c885da74f42f5c76029d
 ?>
 
 
